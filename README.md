@@ -1,6 +1,6 @@
 # CS510 CW 7
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** _Simrath Ratra & Andrew Nguyen_
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-07-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-07-YOURNAME)
 
@@ -39,7 +39,7 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**We really enjoyed this classwork and felt it was very informative about matplotlib. It was nice because we were able to go step by step with each plot and see the differences. It was also good trying the different colormaps to see which ones were most effecient to showcase results. To our finding, .hot seems to most clearly display results whereas things like .prism or .jet though appealing and colorful, really confuse the reader. **
 
 ## Honor Pledge
 
@@ -50,4 +50,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Simrath Ratra, Andrew Nguyen**
