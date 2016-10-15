@@ -2,7 +2,7 @@
 
 **Author(s):** _Simrath Ratra & Andrew Nguyen_
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-07-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-07-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-07-datacats.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-07-datacats)
 
 **Due date:** 2016/10/18
 
