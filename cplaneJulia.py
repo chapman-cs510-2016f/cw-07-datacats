@@ -49,22 +49,26 @@ class JuliaPlane(cplanenp.ComplexPlaneNP):
 
         # Plotting the plane using imshow(), with a bicubic interpolation to help with smoothing
         # Also adding in a colorbar
-        lm = plt.imshow(self.plane, interpolation='bicubic', cmap='bone_r')
+        lm = plt.imshow(self.plane, extent=[-2,2,-2,2] , interpolation='bicubic', cmap='bone_r')
         plt.colorbar(shrink=.92)
 
         # setting the limits based on the min values, and length values.
-        plt.xlim(self.xmin, self.xlen)
-        plt.ylim(self.ymin, self.ylen)
+        plt.xlim(-2.0, 2.0)
+        plt.xticks(np.linspace(-2,2,5, endpoint=True))
+        plt.ylim(-2.0, 2.0)
+        plt.yticks(np.linspace(-2,2,5, endpoint=True))
+        #plt.xticks(np.linspace(self.xmin,self.xmax,(self.xmax-self.xmin)+1, endpoint=True))
+        #plt.yticks(np.linspace(self.xmin,self.xmax,(self.ymax-self.ymin)+1, endpoint=True))
 
 
         # Setting the axis so it lies in the middle of the image
-        ax= plt.gca() #getting current axis
-        ax.spines['right'].set_color('none')
-        ax.spines['top'].set_color('none')
-        ax.xaxis.set_ticks_position('bottom')
-        ax.spines['bottom'].set_position(('data',self.xlen/2))
-        ax.yaxis.set_ticks_position('left')
-        ax.spines['left'].set_position(('data',self.ylen/2))
+        # ax= plt.gca() #getting current axis
+        # ax.spines['right'].set_color('none')
+        # ax.spines['top'].set_color('none')
+        # ax.xaxis.set_ticks_position('bottom')
+        # ax.spines['bottom'].set_position(('data',self.xlen/2))
+        # ax.yaxis.set_ticks_position('left')
+        # ax.spines['left'].set_position(('data',self.ylen/2))
 
         plt.show()
 
