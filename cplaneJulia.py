@@ -49,12 +49,13 @@ class JuliaPlane(cplanenp.ComplexPlaneNP):
 
         # Plotting the plane using imshow(), with a bicubic interpolation to help with smoothing
         # Also adding in a colorbar
-        plt.imshow(self.plane, interpolation='bicubic', cmap='bone_r')
+        lm = plt.imshow(self.plane, interpolation='bicubic', cmap='bone_r')
         plt.colorbar(shrink=.92)
 
         # setting the limits based on the min values, and length values.
         plt.xlim(self.xmin, self.xlen)
         plt.ylim(self.ymin, self.ylen)
+
 
         # Setting the axis so it lies in the middle of the image
         ax= plt.gca() #getting current axis
